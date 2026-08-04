@@ -21,9 +21,9 @@ The second project moves to PyTorch and trains a Multilayer Perceptron on MNIST.
 
 ### 03. MNIST CNN
 
-[Project folder](03-MNIST-CNN/)
+[Project README](03-MNIST-CNN/README.md)
 
-This is the next project I am about to start. The idea is to go one step further and explore Convolutional Neural Networks for image classification on MNIST.
+The third project builds a Convolutional Neural Network for MNIST. It extends the MLP idea from project 2 with convolution and pooling layers, adds filter and activation visualizations, and shows why CNNs are a better fit for image data than a purely fully connected network.
 
 ## What this repository is for
 

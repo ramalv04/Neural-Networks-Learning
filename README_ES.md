@@ -20,9 +20,9 @@ El segundo proyecto da el salto a PyTorch y entrena un Perceptrón Multicapa sob
 
 ### 03. CNN para MNIST
 
-[Carpeta del proyecto](03-MNIST-CNN/)
+[README del proyecto](03-MNIST-CNN/README_ES.md)
 
-Este es el próximo proyecto que voy a comenzar. La idea es dar un paso más y explorar Redes Neuronales Convolucionales para clasificación de imágenes en MNIST.
+El tercer proyecto construye una Red Neuronal Convolucional para MNIST. Extiende la idea del proyecto 2 con capas convolucionales y de pooling, agrega visualización de filtros y mapas de activación, y muestra por qué las CNN son una mejor opción que una red totalmente conectada para datos de imagen.
 
 ## Para qué sirve este repositorio
 
