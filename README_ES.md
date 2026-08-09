@@ -24,6 +24,12 @@ El segundo proyecto da el salto a PyTorch y entrena un Perceptrón Multicapa sob
 
 El tercer proyecto construye una Red Neuronal Convolucional para MNIST. Extiende la idea del proyecto 2 con capas convolucionales y de pooling, agrega visualización de filtros y mapas de activación, y muestra por qué las CNN son una mejor opción que una red totalmente conectada para datos de imagen.
 
+### 04. Transfer Learning con ResNet18
+
+[README del proyecto](04-transfer-learning/README_ES.md)
+
+El cuarto proyecto aplica transfer learning con una ResNet18 preentrenada sobre el dataset Oxford-IIIT Pet. Reemplaza la última capa de clasificación, congela la mayor parte de la red preentrenada, hace fine-tuning de Layer4 y de la cabeza clasificadora, y usa augmentations, normalización de ImageNet y visualizaciones como matriz de confusión, top-5 predictions, filtros y mapas de activación.
+
 ## Para qué sirve este repositorio
 
 - Practicar los fundamentos de redes neuronales paso a paso.
@@ -46,6 +52,7 @@ El tercer proyecto construye una Red Neuronal Convolucional para MNIST. Extiende
 01-XOR-From-Scratch/
 02-MNIST-MLP/
 03-MNIST-CNN/
+04-transfer-learning/
 ```
 
 ---

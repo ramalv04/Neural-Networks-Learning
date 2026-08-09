@@ -25,6 +25,12 @@ The second project moves to PyTorch and trains a Multilayer Perceptron on MNIST.
 
 The third project builds a Convolutional Neural Network for MNIST. It extends the MLP idea from project 2 with convolution and pooling layers, adds filter and activation visualizations, and shows why CNNs are a better fit for image data than a purely fully connected network.
 
+### 04. Transfer Learning with ResNet18
+
+[Project README](04-transfer-learning/README.md)
+
+The fourth project applies transfer learning with a pretrained ResNet18 on the Oxford-IIIT Pet dataset. It replaces the final classification layer, freezes most pretrained layers, fine-tunes Layer4 and the classifier, and uses augmentation, ImageNet normalization, and visualizations such as confusion matrices, top-5 predictions, filters, and activation maps.
+
 ## What this repository is for
 
 - Practicing neural network fundamentals step by step.
@@ -47,6 +53,7 @@ The third project builds a Convolutional Neural Network for MNIST. It extends th
 01-XOR-From-Scratch/
 02-MNIST-MLP/
 03-MNIST-CNN/
+04-transfer-learning/
 ```
 
 ---
