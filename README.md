@@ -31,6 +31,18 @@ The third project builds a Convolutional Neural Network for MNIST. It extends th
 
 The fourth project applies transfer learning with a pretrained ResNet18 on the Oxford-IIIT Pet dataset. It replaces the final classification layer, freezes most pretrained layers, fine-tunes Layer4 and the classifier, and uses augmentation, ImageNet normalization, and visualizations such as confusion matrices, top-5 predictions, filters, and activation maps.
 
+### 05. Convolutional Autoencoder
+
+[Project README](05-convolutional-autoencoder/README.md)
+
+This project explores image reconstruction with convolutional autoencoders and compares a basic autoencoder with a convolutional architecture.
+
+## Neural Networks Course
+
+[Course folder](Materia-Redes-Neuronales/README.md)
+
+The `Materia-Redes-Neuronales` folder collects the practical assignments completed for the university Neural Networks course. It includes a numerical simulation of the Izhikevich neuron model and a feedforward neural network trained to classify Fashion-MNIST. The notebooks contain the implementations, and the PDFs contain the complete scientific reports.
+
 ## What this repository is for
 
 - Practicing neural network fundamentals step by step.
@@ -54,6 +66,8 @@ The fourth project applies transfer learning with a pretrained ResNet18 on the O
 02-MNIST-MLP/
 03-MNIST-CNN/
 04-transfer-learning/
+05-convolutional-autoencoder/
+Materia-Redes-Neuronales/
 ```
 
 ---

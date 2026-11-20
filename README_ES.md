@@ -30,6 +30,18 @@ El tercer proyecto construye una Red Neuronal Convolucional para MNIST. Extiende
 
 El cuarto proyecto aplica transfer learning con una ResNet18 preentrenada sobre el dataset Oxford-IIIT Pet. Reemplaza la última capa de clasificación, congela la mayor parte de la red preentrenada, hace fine-tuning de Layer4 y de la cabeza clasificadora, y usa augmentations, normalización de ImageNet y visualizaciones como matriz de confusión, top-5 predictions, filtros y mapas de activación.
 
+### 05. Autoencoder Convolucional
+
+[README del proyecto](05-convolutional-autoencoder/README_ES.md)
+
+Este proyecto explora la reconstrucción de imágenes con autoencoders convolucionales y compara un autoencoder básico con una arquitectura convolucional.
+
+## Materia Redes Neuronales
+
+[Carpeta de la materia](Materia-Redes-Neuronales/README_ES.md)
+
+La carpeta `Materia-Redes-Neuronales` reúne los trabajos prácticos realizados para la materia universitaria de Redes Neuronales. Incluye una simulación numérica del modelo de neurona de Izhikevich y una red neuronal feedforward entrenada para clasificar Fashion-MNIST. Los notebooks contienen las implementaciones y los PDFs, los informes científicos completos.
+
 ## Para qué sirve este repositorio
 
 - Practicar los fundamentos de redes neuronales paso a paso.
@@ -53,6 +65,8 @@ El cuarto proyecto aplica transfer learning con una ResNet18 preentrenada sobre 
 02-MNIST-MLP/
 03-MNIST-CNN/
 04-transfer-learning/
+05-convolutional-autoencoder/
+Materia-Redes-Neuronales/
 ```
 
 ---
